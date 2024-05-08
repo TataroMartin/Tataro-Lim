@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    width: 70%;
+  }
+  
+  .sidebar {
+    width: 30%;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url(Aubackground.png);
+    margin: 0;
+    padding: 0;
+    background-size: 100%;
+}
+
+.logo-container img {
+    height: auto;
+    width: 90px;
+    position: fixed;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+header {
+    color: #000000;
+    position: fixed;
+    padding: 10px 0;
+    float: left;
+    margin-left: 110px;
+    margin-top: 25px;
+    font-size: 13px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px 0;
+    float: right;
+    margin-right: 77px;
+    margin-top: 33px
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    background: #9c9c9c;
+    
+}
+
+.contact {
+    width: 900px;
+    height: 470px;
+    margin-top: 40px;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box1 {
+    width: 425px;
+    height: 400px;
+    margin-top: 4px;
+    margin-left: -210;
+    background-color: #6d3535;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.box1 img {
+    width: 23%;
+    height: auto;
+    margin-left: 150px;
+}
+
+.box1 h2 {
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.box1 h4 {
+    margin-top: 40px;
+    margin-left: 120px;
+}
+
+.box2 {
+    width: 425px;
+    height: 400px;
+    margin-top: 4px;
+    margin-left: 215px;
+    background-color: #6d3535;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box2 img {
+    width: 23%;
+    height: auto;
+    margin-left: 150px;
+}
+
+.box2 h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.box2 h3 {
+    margin-top: 15px;
+    margin-left: 20px;
+}
